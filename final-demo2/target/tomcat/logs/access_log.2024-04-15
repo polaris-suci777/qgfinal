@@ -1,0 +1,4 @@
+0:0:0:0:0:0:0:1 - - [15/Apr/2024:20:56:08 +0800] "GET /brand-demo HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [15/Apr/2024:20:56:08 +0800] "GET /brand-demo/ HTTP/1.1" 200 197 http-bio-8080-exec-3 7
+0:0:0:0:0:0:0:1 - - [15/Apr/2024:20:56:08 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-4 0
+0:0:0:0:0:0:0:1 - - [15/Apr/2024:20:56:11 +0800] "GET /brand-demo/selectAllServlet HTTP/1.1" 500 6159 http-bio-8080-exec-5 320
