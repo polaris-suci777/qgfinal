@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+    <link href="css/login.css" rel="stylesheet">
+</head>
+
+<body>
+<div id="loginDiv">
+    <form action="/final-demo2/loginServlet" method="post" id="form">
+        <h1 id="loginMsg">LOGIN IN</h1>
+        <p>Username:<input id="username" name="name" type="text"></p>
+
+        <p>Password:<input id="password" name="password" type="password"></p>
+
+        <tr>
+            <td><input type=radio name=type value=teacher>教师
+                <input type=radio name=type value=student checked>学生
+            </td>
+        </tr>
+        <div id="subDiv">
+            <input type="submit" class="button" value="login up">
+            <input type="reset" class="button" value="reset">&nbsp;&nbsp;&nbsp;
+            <a href="register.html">没有账号？点击注册</a>
+            <a href="register.html"></a>
+        </div>
+
+    </form>
+</div>
+
+</body>
+</html>
