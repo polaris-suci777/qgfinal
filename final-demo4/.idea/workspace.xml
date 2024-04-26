@@ -11,7 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -30,9 +30,9 @@
     "Maven.final-demo4 [tomcat7:run].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/java/final-demo4/src/main/resources/com/itheima",
+    "last_opened_file_path": "E:/java/qgtext/qgfinal/final-demo4",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -91,6 +91,7 @@
       <updated>1714136037971</updated>
       <workItem from="1714136039051" duration="102000" />
       <workItem from="1714136214012" duration="6739000" />
+      <workItem from="1714155019768" duration="49000" />
     </task>
     <servers />
   </component>
