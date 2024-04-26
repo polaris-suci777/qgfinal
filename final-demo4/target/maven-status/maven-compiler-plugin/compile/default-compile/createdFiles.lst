@@ -1,5 +1,7 @@
 com\itheima\controller\SelectCourse\EnrollmentSelectAllByManagerServlet.class
+com\itheima\pojo\Learning_status.class
 com\itheima\controller\Student_answer\Student_answerAddServlet.class
+com\itheima\controller\learning_status\Learning_statusSelectAllServlet.class
 com\itheima\controller\student\StudentSelectAllByTeacherServlet.class
 com\itheima\controller\login\LoginServlet.class
 com\itheima\controller\student\StudentDeleteServlet.class
@@ -29,6 +31,7 @@ com\itheima\dao\ManagerDao.class
 com\itheima\service\LoginService.class
 com\itheima\controller\chapter\ChapterUpdateServlet.class
 com\itheima\dao\SelectCourseDao.class
+com\itheima\controller\learning_status\Learning_statusDeleteServlet.class
 com\itheima\controller\question\QuestionSelectByIdServlet.class
 com\itheima\controller\question\QuestionUpdateServlet.class
 com\itheima\controller\course\CourseDeleteServlet.class
@@ -36,6 +39,7 @@ com\itheima\controller\Student_answer\Student_answerDeleteServlet.class
 com\itheima\service\DiscussionService.class
 com\itheima\pojo\Teacher.class
 com\itheima\controller\discussion\DiscussionSelectAllByStudentServlet.class
+com\itheima\controller\chapter\LearnChapterServlet.class
 com\itheima\controller\SelectCourse\EnrollmentSelectByIdServlet.class
 com\itheima\service\CourseService.class
 com\itheima\controller\SelectCourse\EnrollmentDeleteByStudentServlet.class
@@ -44,6 +48,7 @@ com\itheima\controller\chapter\ChapterSelectByIdServlet.class
 com\itheima\controller\SelectCourse\EnrollmentSelectAllServlet.class
 com\itheima\controller\chapter\ChapterAddServlet.class
 com\itheima\service\EnrollmentService.class
+com\itheima\controller\learning_status\Learning_statusAddServlet.class
 com\itheima\pojo\Chapter.class
 com\itheima\controller\student\StudentSelectByIdServlet.class
 com\itheima\pojo\Question.class
@@ -59,7 +64,9 @@ com\itheima\controller\Student_answer\Student_answerSelectAllServlet.class
 com\itheima\dao\message\StudentDao.class
 com\itheima\controller\discussion\DiscussionUpdateServlet.class
 com\itheima\util\SqlSessionFactoryUtils.class
+com\itheima\service\Learning_statusService.class
 com\itheima\service\TeacherService.class
+com\itheima\controller\learning_status\Learning_statusUpdateServlet.class
 com\itheima\util\CheckCodeUtil.class
 com\itheima\service\SelectCourseService.class
 com\itheima\dao\ChapterDao.class
@@ -73,6 +80,7 @@ com\itheima\pojo\Student.class
 com\itheima\controller\discussion\DiscussionSelectAllByTeacherServlet.class
 com\itheima\dao\LoginDao.class
 com\itheima\controller\student\StudentUpdateByStudentServlet.class
+com\itheima\dao\Learning_statusDao.class
 com\itheima\controller\chapter\ChapterSelectAllServlet.class
 com\itheima\controller\discussion\DiscussionAddServlet.class
 com\itheima\controller\discussion\DiscussionDeleteServlet.class
@@ -84,8 +92,10 @@ com\itheima\dao\QuestionDao.class
 com\itheima\pojo\Discussion.class
 com\itheima\controller\register\RegisterServlet.class
 com\itheima\controller\course\CourseUpdateServlet.class
+com\itheima\controller\course\LearnCourseServlet.class
 com\itheima\controller\chapter\ChapterDeleteServlet.class
 com\itheima\controller\student\StudentUpdateServlet.class
+com\itheima\controller\learning_status\Learning_statusSelectByIdServlet.class
 com\itheima\controller\student\StudentAddServlet.class
 com\itheima\controller\Student_answer\Student_answerUpdateServlet.class
 com\itheima\controller\course\CourseSelectByIdServlet.class
