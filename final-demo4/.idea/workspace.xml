@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="70dd169a-884a-4141-863a-bf3685ce5590" name="更改" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2fdfmja5CEnOaWiDRwdRylTejqA" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.final-demo2 [tomcat7:run,-DforkCount=0...].executor": "Debug",
+    "Maven.final-demo2 [tomcat7:run].executor": "Run",
+    "Maven.final-demo4 [clean,install,-DforkCount=0...].executor": "Debug",
+    "Maven.final-demo4 [clean,install].executor": "Run",
+    "Maven.final-demo4 [tomcat7:run,-DforkCount=0...].executor": "Debug",
+    "Maven.final-demo4 [tomcat7:run].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/java/final-demo4/src/main/resources/com/itheima",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "E:/java/final-demo4/src/main/java/org/example/Main.java",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.DruidDemo.executor": "Run"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\java\final-demo4\src\main\resources\com\itheima" />
+      <recent name="E:\java\final-demo4" />
+      <recent name="E:\java\final-demo4\target" />
+      <recent name="E:\java\final-demo4\src\main\java\com\itheima\util" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\java\final-demo4\src" />
+      <recent name="E:\java\final-demo4" />
+      <recent name="E:\java\final-demo4\src\main\resources" />
+      <recent name="E:\java\final-demo4\src\main\resources\com" />
+      <recent name="E:\java\final-demo4\src\main\java\com\itheima\util" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.itheima" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="DruidDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itheima.DruidDemo" />
+      <module name="final-demo4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.DruidDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="70dd169a-884a-4141-863a-bf3685ce5590" name="更改" comment="" />
+      <created>1714136037971</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714136037971</updated>
+      <workItem from="1714136039051" duration="102000" />
+      <workItem from="1714136214012" duration="6739000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/itheima/util/DruidUtils.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
