@@ -22,7 +22,7 @@ public class LearnChapterServlet extends HttpServlet {
         //处理POST请求的乱码问题
         request.setCharacterEncoding("utf-8");
         //1. 接收id
-        String course_name = request.getParameter("name");
+        String course_name = request.getParameter("course_name");
         course_name  = new String(course_name.getBytes(StandardCharsets.ISO_8859_1),StandardCharsets.UTF_8);
         //1. 调用BrandService完成查询
         List<Chapter> chapters;

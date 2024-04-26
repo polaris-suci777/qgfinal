@@ -23,7 +23,8 @@ public class ChapterSelectAllServlet extends HttpServlet {
             request.setCharacterEncoding("utf-8");
             //1. 接收id
             String course_name = request.getParameter("name");
-            course_name  = new String(course_name.getBytes(StandardCharsets.ISO_8859_1),StandardCharsets.UTF_8);
+            if(course_name!=null){
+            course_name  = new String(course_name.getBytes(StandardCharsets.ISO_8859_1),StandardCharsets.UTF_8);}
             //1. 调用BrandService完成查询
             List<Chapter> chapters;
             try {

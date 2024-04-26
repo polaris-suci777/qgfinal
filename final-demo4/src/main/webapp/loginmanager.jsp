@@ -76,6 +76,7 @@
         <li><a href="questionSelectAllByTeacherServlet?&method=${"manager"}">管理题目</a></li>
         <li><a href="student_answerSelectAllByManagerServlet?&method=${"manager"}">管理学生作答</a></li>
         <li><a href="discussionSelectAllByTeacherServlet?&method=${"manager"}">管理评论区</a></li>
+        <li><a href="/final-demo4/learning_statusSelectAllServlet?&method=${"manager"}">管理学习状态</a></li>
         <li><a href="index.jsp">返回登录界面</a></li>
     </ul>
 </nav>

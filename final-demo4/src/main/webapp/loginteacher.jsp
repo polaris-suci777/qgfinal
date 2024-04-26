@@ -78,6 +78,7 @@
         <li><a href="questionSelectAllServlet?course_name=${teacher.subject}&method=${"teacher"}">查看题目</a></li>
         <li><a href="student_answerSelectAllServlet?course_name=${teacher.subject}&method=${"teacher"}">查看学生答案</a></li>
         <li><a href="discussionSelectAllServlet?course_name=${teacher.subject}&method=${"teacher"}">查看评论区</a></li>
+        <li><a href="/final-demo4/learning_statusSelectAllServlet?course_name=${teacher.subject}&method=${"teacher"}">查看已学习课程的学生</a></li>
         <li><a href="index.jsp">返回登录界面</a></li>
     </ul>
 </nav>

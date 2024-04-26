@@ -14,23 +14,27 @@
     <tr>
         <th>序号</th>
         <th>课程名称</th>
-        <th>学生名称</th>
-        <th>操作</th>
+        <th>学生姓名</th>
+        <th>章节</th>
+        <th>学习状态</th>
+<%--        <th>操作</th>--%>
     </tr>
 
-    <c:forEach items="${enrollments}" var="enrollment" varStatus="status">
+
+    <c:forEach items="${learning_statuses}" var="learning_status" varStatus="status">
         <tr align="center">
                 <%--<td>${brand.id}</td>--%>
             <td>${status.count}</td>
-            <td>${enrollment.course_name}</td>
-            <td>${enrollment.student_name}</td>
-            <td>
-                <a href="/final-demo4/learnCourseServlet?course_name=${enrollment.course_name}">学习课程</a>
-                <a href="/final-demo4/enrollmentDeleteByStudentServlet?id=${enrollment.id}">删除</a></td>
+            <td>${learning_status.course_name}</td>
+            <td>${learning_status.student_name}</td>
+            <td>${learning_status.chapter}</td>
+            <td>${learning_status.status}</td>
+
+
+<%--            <td><a href="studentSelectByIdServlet?id=${student.id}&method=${"teacher"}">修改</a>--%>
+<%--                <a href="studentDeleteServlet?id=${student.id}&method=${"teacher"}">删除</a></td>--%>
         </tr>
     </c:forEach>
-
-
 
 </table>
 

@@ -34,7 +34,6 @@ public class ChapterSelectAllByStudent extends HttpServlet {
 
         //2. 存入request域中
         request.setAttribute("chapters", chapters);
-
         //3. 转发到course.jsp
         request.getRequestDispatcher("/chapterforstudent.jsp").forward(request,response);
     }

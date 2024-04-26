@@ -20,14 +20,11 @@ public class ChapterAddServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         //处理POST请求的乱码问题
         request.setCharacterEncoding("utf-8");
-
         //1. 接收表单提交的数据，封装为一个course对象
         String course_name = request.getParameter("course_name");
         String unit = request.getParameter("unit");
         String lesson = request.getParameter("lesson");
         String description = request.getParameter("description");
-
-
         //封装为一个course对象
         Chapter chapter = new Chapter();
         chapter.setCourse_name(course_name);
@@ -41,6 +38,7 @@ public class ChapterAddServlet extends HttpServlet {
             throw new RuntimeException(e);
         }
 //        3. 转发到查询所有Servlet
+        request.setAttribute("course_name",course_name);
         request.getRequestDispatcher("/chapterSelectAllServlet").forward(request,response);
     }
 

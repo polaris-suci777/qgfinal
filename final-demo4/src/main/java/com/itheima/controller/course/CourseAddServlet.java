@@ -15,8 +15,6 @@ import java.util.Objects;
 @WebServlet("/courseAddServlet")
 public class CourseAddServlet extends HttpServlet {
     private CourseService service = new CourseService();
-
-
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         //处理POST请求的乱码问题

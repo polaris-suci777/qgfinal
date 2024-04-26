@@ -1,6 +1,6 @@
 package com.itheima.pojo;
 
-public class learning_status {
+public class Learning_status {
     public Integer getId() {
         return id;
     }
@@ -41,7 +41,7 @@ public class learning_status {
         this.status = status;
     }
 
-    public learning_status() {
+    public Learning_status() {
     }
 
     @Override

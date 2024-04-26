@@ -77,6 +77,7 @@
         <li><a href="adddiscussion.jsp">发表评论</a></li>
         <li><a href="discussionselectbystudent.jsp">查看评论区</a></li>
         <li><a href="/final-demo4/discussionSelectAllByStudentServlet">查看所有的评论区</a></li>
+        <li><a href="/final-demo4/learning_statusSelectAllServlet?student_name=${student.name}&method=${"student"}">查看已学习的课程</a></li>
         <li><a href="index.jsp">返回登录界面</a></li>
     </ul>
 </nav>

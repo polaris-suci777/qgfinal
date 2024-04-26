@@ -1,6 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,7 +28,7 @@
             <td>${course.startdate}</td>
             <td>${course.enddate}</td>
             <td>${course.enrollmentlimit}</td>
-            <td><a href="/final-demo4/chapterSelectAllByStudentServlet?&name=${course.name}">查看章节</a></td>
+            <td><a href="/final-demo4/learnChapterServlet?&course_name=${course.name}">学习章节</a></td>
         </tr>
     </c:forEach>
 </table>

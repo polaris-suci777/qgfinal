@@ -17,7 +17,7 @@
         <th>单元</th>
         <th>章节</th>
         <th>描述</th>
-        <%--        <th>操作</th>--%>
+        <th>操作</th>
     </tr>
     <c:forEach items="${chapters}" var="chapter" varStatus="status">
     <tr align="center">
@@ -27,12 +27,10 @@
         <td>${chapter.unit}</td>
         <td>${chapter.lesson}</td>
         <td>${chapter.description}</td>
-
-            <%--            <td><a href="/final-demo4/chapterSelectByIdServlet?id=${chapter.id}">修改</a>--%>
-            <%--                <a href="/final-demo4/selectchapterServlet?id=${chapter.id}">选择</a>--%>
-            <%--                <a href="/final-demo4/chapterDeleteServlet?id=${chapter.id}">删除</a></td>--%>
-            <%--        </tr>--%>
-
+        <td>
+        <a href="/final-demo4/addlearning_status.jsp?course_name=${chapter.course_name}&chapter=${chapter.unit}">学习课程章节</a>
+        </td>
+        </tr>
         </c:forEach>
 
 </table>
