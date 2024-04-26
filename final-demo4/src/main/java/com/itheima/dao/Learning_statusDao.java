@@ -2,7 +2,7 @@ package com.itheima.dao;
 
 import com.itheima.pojo.Course;
 import com.itheima.pojo.Learning_status;
-import com.itheima.util.JDBCUtil;
+import com.itheima.util.DruidUtils;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -16,7 +16,7 @@ public class Learning_statusDao {
         Connection conn = null;
         PreparedStatement stmt = null;
         try {
-            conn = JDBCUtil.getConnection();
+            conn = DruidUtils.getConnection();
             String sql = "INSERT INTO learning_status (id, course_name, student_name,chapter,status) VALUES (null,?,?,?,?)";
             stmt = conn.prepareStatement(sql);
             stmt.setString(1, learning_status.getCourse_name());
@@ -40,7 +40,7 @@ public class Learning_statusDao {
     }
     public List<Learning_status> SelectAll() throws SQLException {
         Connection conn;
-        conn = JDBCUtil.getConnection();
+        conn = DruidUtils.getConnection();
         String sql = "select * from learning_status;";
         //3. 获取pstmt对象
         PreparedStatement stmt = conn.prepareStatement(sql);
@@ -72,7 +72,7 @@ public class Learning_statusDao {
 
     public List<Learning_status> SelectAllByStudent_name(String student_name) throws SQLException {
         Connection conn;
-        conn = JDBCUtil.getConnection();
+        conn = DruidUtils.getConnection();
         String sql = "select * from learning_status WHERE student_name = ?;";
         //3. 获取stmt对象
         PreparedStatement stmt = conn.prepareStatement(sql);
@@ -103,7 +103,7 @@ public class Learning_statusDao {
     }
     public List<Learning_status> SelectAllByCourse_name(String course_name) throws SQLException {
         Connection conn;
-        conn = JDBCUtil.getConnection();
+        conn = DruidUtils.getConnection();
         String sql = "select * from learning_status WHERE course_name = ?;";
         //3. 获取stmt对象
         PreparedStatement stmt = conn.prepareStatement(sql);
@@ -139,7 +139,7 @@ public class Learning_statusDao {
         ResultSet rs;
         Learning_status learning_status = null;
         try {
-            conn = JDBCUtil.getConnection();
+            conn = DruidUtils.getConnection();
             String sql = "SELECT * FROM learning_status WHERE id = ?";
             stmt = conn.prepareStatement(sql);
             stmt.setInt(1, id);
@@ -164,7 +164,7 @@ public class Learning_statusDao {
     public void update(Learning_status learning_status){
         Connection conn;
         try {
-            conn = JDBCUtil.getConnection();
+            conn = DruidUtils.getConnection();
             //2. 定义SQL
             String sql ="update learning_status set course_name = ?,student_name = ?,chapter = ?,status = ? where id = ?";
             //3. 获取stmt对象
@@ -184,7 +184,7 @@ public class Learning_statusDao {
     public void delete(int id){
         Connection conn;
         try {
-            conn = JDBCUtil.getConnection();
+            conn = DruidUtils.getConnection();
             //2. 定义SQL
             String sql ="delete from learning_status where id = ? ";
             //3. 获取stmt对象

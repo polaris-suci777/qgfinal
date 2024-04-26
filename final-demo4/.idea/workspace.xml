@@ -10,8 +10,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -30,9 +38,9 @@
     "Maven.final-demo4 [tomcat7:run].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/java/qgtext/qgfinal/final-demo4",
+    "last_opened_file_path": "E:/java/final-demo4",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -45,15 +53,16 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\java\final-demo4\src" />
       <recent name="E:\java\final-demo4\src\main\resources\com\itheima" />
       <recent name="E:\java\final-demo4" />
       <recent name="E:\java\final-demo4\target" />
       <recent name="E:\java\final-demo4\src\main\java\com\itheima\util" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\java\final-demo4\src\main\resources" />
       <recent name="E:\java\final-demo4\src" />
       <recent name="E:\java\final-demo4" />
-      <recent name="E:\java\final-demo4\src\main\resources" />
       <recent name="E:\java\final-demo4\src\main\resources\com" />
       <recent name="E:\java\final-demo4\src\main\java\com\itheima\util" />
     </key>
@@ -90,8 +99,8 @@
       <option name="presentableId" value="Default" />
       <updated>1714136037971</updated>
       <workItem from="1714136039051" duration="102000" />
-      <workItem from="1714136214012" duration="6739000" />
-      <workItem from="1714155019768" duration="49000" />
+      <workItem from="1714136214012" duration="17784000" />
+      <workItem from="1714155714969" duration="106000" />
     </task>
     <servers />
   </component>
@@ -105,11 +114,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/itheima/util/DruidUtils.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
